@@ -1,0 +1,8 @@
+24
+False
+Diablo III
+6
+4
+['Age of Empires', 'Command & Conquer', 'Counter-Strike', 'Counter-Strike: Condition Zero', 'Crysis', 'Diablo II', 'Diablo III', 'Doom 3', 'EverQuest', "Garry's Mod", 'Half-Life', 'Half-Life 2', 'Minecraft', 'Populous', 'Terraria', 'Counter-Strike', 'Half-Life', 'The Sims', 'Guild Wars', 'Populous', 'The Sims 2', 'The Sims 3', 'Crysis', 'Counter-Strike: Condition Zero']
+['Action-adventure', 'First-person shooter', 'RPG', 'Real-time strategy', 'Sandbox', 'Simulation', 'Survival game']
+1999
