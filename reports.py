@@ -57,19 +57,20 @@ def get_line_number_by_title(file_name, title):
 def sort_abc(file_name):
     table=[]
     titles=[]
+    sorted_titles = []
     with open(file_name, "r") as f:
         for row in f:
             table.append(row.split("\t"))
     for row in table:
         titles.append(row[0])
-    #element=0
-    for element in range(len(titles)):
-        for index in range(len(titles)):
-            if titles[element]<titles[index]:
-                titles.insert(index, titles[element])
-                titles.pop(element)
-                break
-    return titles
+    while titles:
+        minimum = titles[0]  # arbitrary number in list
+        for element in titles:
+            if element < minimum:
+                minimum = element
+        sorted_titles.append(minimum)
+        titles.remove(minimum)
+    return sorted_titles
 
 # Function 7
 
